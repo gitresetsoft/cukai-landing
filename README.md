@@ -1,4 +1,5 @@
 <img src="https://repository-images.githubusercontent.com/995533142/e03b5d8f-ec8a-4808-bc36-4b273ef40f5f" width="400">
+
 # Chukai
 
 A smart web application for Malaysian taxpayers to track and manage their receipts with AI-powered parsing. Simplify your tax preparation process with automated receipt digitization, categorization, and LHDN-ready organization.
