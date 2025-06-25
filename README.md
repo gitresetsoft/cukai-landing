@@ -1,131 +1,152 @@
+<img src="https://repository-images.githubusercontent.com/995533142/e03b5d8f-ec8a-4808-bc36-4b273ef40f5f" width="400">
 
-![Kebun Banner](https://repository-images.githubusercontent.com/1008432117/18f385bb-7602-4772-87c8-231b1f4d4ef7)
-# 🌱 Kebun - Digital Plant Collection Manager
+# Chukai
 
-A modern, elegant web application where plant enthusiasts can register their gardens (kebun) and manage beautiful collections of plants. Built with cutting-edge web technologies and featuring a stunning green-accented design.
+A smart web application for Malaysian taxpayers to track and manage their receipts with AI-powered parsing. Simplify your tax preparation process with automated receipt digitization, categorization, and LHDN-ready organization.
 
+## Features
 
-## ✨ Features
+- **AI Receipt Parsing** - Automatically extract key information from receipt images
+- **Smart Categorization** - Intelligent sorting of expenses by category and tax relevance
+- **LHDN Compliance** - Organize receipts according to Malaysian tax requirements
+- **Digital Archive** - Secure storage and easy retrieval of all your receipts
+- **Expense Analytics** - Visualize spending patterns and tax-deductible expenses
+- **Export Functionality** - Generate reports in LHDN-compatible formats
+- **Mobile Friendly** - Capture receipts on-the-go with mobile camera integration
+- **Search & Filter** - Quick access to specific receipts with powerful search tools
 
-### 🏡 Garden Management
-- **Register Your Kebun** - Create and manage your personal garden space
-- **Public Garden Views** - Share your garden with the community via `/kebun/:id`
-- **Garden Dashboard** - Private management interface for garden owners
+## Use Cases
 
-### 🌿 Plant Collections
-- **Plant Profiles** - Detailed plant information with photos, titles, scientific names, and descriptions
-- **Public Plant Pages** - Individual plant showcases accessible via `/plant/:id`
-- **Rich Plant Data** - Comprehensive plant information management
+- 📊 **Personal Tax Filing** - Organize personal expenses for annual tax returns
+- 🏢 **Business Expense Tracking** - Manage business receipts for tax deductions
+- 💼 **Freelancer Management** - Track deductible expenses for self-employed individuals  
+- 🎯 **Tax Optimization** - Identify potential tax savings and deductions
+- 📱 **Receipt Digitization** - Convert physical receipts to searchable digital format
 
-### 🔐 Authentication & Security
-- **Secure Authentication** - Mock login/signup system with protected routes
-- **Protected Pages** - Private dashboard and management areas
-- **Public Access** - Gardens and plants viewable by anyone without login
-- **Sign Out** - Secure session management
+## Tech Stack
 
-### 📱 Modern User Experience
-- **Mobile Responsive** - Optimized for all device sizes
-- **Micro Animations** - Subtle, delightful interactions throughout the app
-- **Outstanding Landing Page** - Eye-catching hero section with green accent theme
-- **Elegant Design** - Modern UI with HeroUI component library
+- **Frontend Framework**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **AI Integration**: Receipt parsing and text extraction
+- **Data Management**: Local storage with export capabilities
 
-## 🛠️ Tech Stack
-
-- **Frontend Framework:** React.js + Vite
-- **Styling:** Tailwind CSS
-- **UI Components:** HeroUI (formerly NextUI)
-- **Build Tool:** Vite
-- **Responsive Design:** Mobile-first approach
-- **Animations:** CSS transitions and transforms
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn package manager
+
+- Node.js (version 16 or higher)
+- npm or yarn
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kebun.git
-   cd kebun
+   git clone https://github.com/yourusername/chukai.git
+   cd chukai
    ```
 
-2. **Install dependencies**
+2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-3. **Start the development server**
+3. Start the development server:
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
+4. Open your browser and navigate to `http://localhost:5173`
 
-### Build for Production
+### Available Scripts
 
-```bash
-npm run build
-# or
-yarn build
-```
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-### Responsive Design
-- Mobile-first CSS approach
-- Flexible grid systems
-- Touch-friendly interface elements
-- Optimized images for different screen sizes
+## Usage
 
-## 🎭 Micro Animations
+1. **Upload Receipt** - Take a photo or upload an image of your receipt
+2. **AI Processing** - Let the AI extract merchant name, amount, date, and category
+3. **Review & Edit** - Verify and adjust the parsed information if needed
+4. **Categorize** - Assign appropriate tax categories and tags
+5. **Export** - Generate reports for LHDN submission when needed
 
-The app includes subtle animations for enhanced user experience:
-- **Page Transitions** - Smooth navigation between routes
-- **Button Hover Effects** - Interactive feedback
-- **Card Animations** - Gentle entrance animations
-- **Form Interactions** - Input focus and validation states
-- **Loading States** - Skeleton screens and spinners
+## LHDN Compliance
 
-## 📱 Mobile Responsiveness
+Chukai is designed with Malaysian tax requirements in mind:
 
-- **Breakpoints:** Mobile (320px+), Tablet (768px+), Desktop (1024px+)
-- **Navigation:** Collapsible mobile menu
-- **Touch Targets:** Minimum 44px for accessibility
-- **Content Scaling:** Fluid typography and spacing
+- Supports common Malaysian tax categories
+- Maintains proper record-keeping standards
+- Generates exportable reports for tax filing
+- Preserves original receipt images as required by LHDN
 
-## 🤝 Contributing
+> **Disclaimer**: This tool assists with receipt organization but does not provide tax advice. Please consult with a qualified tax professional for specific tax matters.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## Contributing
 
-## 📄 License
+We welcome contributions from the Malaysian developer and taxpayer community!
+
+### How to Contribute
+
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/ai-enhancement`
+3. **Make your changes** and test them thoroughly
+4. **Commit your changes**: `git commit -m 'Improve AI parsing accuracy'`
+5. **Push to the branch**: `git push origin feature/ai-enhancement`
+6. **Open a Pull Request**
+
+### Ways to Contribute
+
+- 🤖 **AI Improvements** - Enhance receipt parsing accuracy and speed
+- 📋 **LHDN Features** - Add new tax categories or compliance features
+- 🐛 **Bug Fixes** - Help improve stability and user experience
+- 🎨 **UI/UX** - Enhance the interface for better usability
+- 📱 **Mobile Features** - Improve mobile camera and upload functionality
+- 🔍 **Search & Filter** - Add advanced search and organization features
+- 📊 **Analytics** - Create better expense visualization and reporting
+- 🌐 **Localization** - Add support for Bahasa Malaysia and other languages
+
+### Contribution Guidelines
+
+- Follow existing code style and conventions
+- Test changes with various receipt formats and Malaysian merchants
+- Respect user privacy and data security best practices
+- Include proper error handling for AI processing failures
+- Update documentation for new features
+- Consider LHDN compliance in all tax-related features
+
+## Privacy & Security
+
+- All receipt processing happens locally in your browser
+- No receipt images or personal data are sent to external servers
+- Users maintain full control over their data and exports
+- Secure local storage with optional cloud backup capabilities
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Roadmap
 
-- **HeroUI** - Beautiful React components
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Lightning-fast build tool
-- **React** - The library that powers our UI
+- [ ] Enhanced AI model training for Malaysian receipts
+- [ ] Integration with popular accounting software
+- [ ] Bulk upload and processing capabilities
+- [ ] Advanced analytics and tax insights
+- [ ] Multi-language support (BM, Chinese, Tamil)
+- [ ] Cloud sync and backup options
 
-## 📞 Support
+## Support
 
-For questions or support, please open an issue on GitHub or contact the development team.
+If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/chukai/issues) on GitHub.
+
+## Acknowledgments
+
+- Malaysian taxpayers who inspired this solution
+- LHDN for providing clear guidelines on record-keeping requirements
+- AI/ML community for advancing receipt parsing technology
 
 ---
 
-**Happy Gardening! 🌱✨**
-
----
-
-Made with ❤️ by [Ambik Project](https://ambik.link/?src=github) 🇲🇾
+Made with ❤️ by [Ambik Project](https://ambik.link) 🇲🇾
